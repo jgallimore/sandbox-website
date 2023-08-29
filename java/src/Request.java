@@ -9,7 +9,7 @@ public class Request {
 
     private static final String USER_AGENT = "Mozilla/5.0";
 
-    private static final String POST_URL = "https://region1.google-analytics.com/g/collect?v=2&tid=G-3T5C10P6HW&gtm=45je38n0&_p=2089230605&cid=774959056.1693317470&ul=en-gb&sr=2560x1440&_s=1&sid=1693317469&sct=1&seg=0&dl=https%3A%2F%2Fjgallimore.github.io%2Fsandbox-website%2F&dt=&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1'";
+    private static final String POST_URL = "https://region1.google-analytics.com/g/collect?v=2&tid=G-PPH1H6SJ3W&gtm=45je38n0&_p=2089230605&cid=154959056.1693319095&ul=en-gb&sr=2560x1440&_s=1&sid=1693317469&sct=1&seg=0&dl=https%3A%2F%2Fjgallimore.github.io%2Fsandbox-website%2F&dt=&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1'";
 
     private static final String POST_PARAMS = "";
 
