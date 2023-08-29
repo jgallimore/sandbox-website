@@ -5,7 +5,13 @@
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'G-3T5C10P6HW');
+  gtag('config', 'G-3T5C10P6HW', {
+    'sessionId' : 'session_id'
+  });
+
+  gtag('get', 'G-3T5C10P6HW', 'session_id', (sessionID) => {
+     console.log(sessionID)
+  });
 </script>
 
 
