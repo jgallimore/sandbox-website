@@ -1,19 +1,25 @@
 <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-3T5C10P6HW"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+<!DOCTYPE html>
+<html>
+<head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-3T5C10P6HW"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-3T5C10P6HW');
+    </script>
+</head>
 
-  gtag('config', 'G-3T5C10P6HW', {
-    'sessionId' : 'session_id'
-  });
+<body>
+    <script>
+      gtag('event', 'page_view', {
+        'send_to': 'G-3T5C10P6HW',
+        'page_location': 'https://jgallimore.github.io/sandbox-website/'
+      });
+    </script>
 
-  gtag('event', 'page_view', {
-    'page_location': 'https://jgallimore.github.io/sandbox-website/',
-  });
-
-</script>
-
+</body>
+</html>
 
 Hello world
