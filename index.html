@@ -9,8 +9,9 @@
     'sessionId' : 'session_id'
   });
 
-  gtag('get', 'G-3T5C10P6HW', 'session_id', (sessionID) => {
-     console.log(sessionID)
+  gtag('event', 'page_view', {
+    'page_location': 'https://jgallimore.github.io/sandbox-website/',
+    'client_id': 'ABC_123'
   });
 </script>
 
